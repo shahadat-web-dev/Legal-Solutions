@@ -162,9 +162,73 @@ nav li a {
   font-weight: 400;
   color: #707070;
 }
-.card img{
+
+.card img {
   margin-top: 35px;
 }
+
+.what-our-client-title {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.what-our-client-title h2 {
+  font-family: EB Garamond;
+  font-size: 40px;
+  font-weight: 800;
+  color: #414040;
+}
+
+.what-our-client-title p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.what-our-client-banner {
+  background-image: url(../images/banner.png);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.what-our-client-banner-content {
+  width: 900px;
+  text-align: center;
+  color: white;
+}
+
+.what-our-client-banner-content h3 {
+  font-family: EB Garamond;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.what-our-client-banner-content h4 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: -20px;
+}
+
+.what-our-client-banner-content p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #F3F3F3;
+}
+
+.what-our-client-banner img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+
+
 
 
 
@@ -195,10 +259,11 @@ nav li a {
   .banner-title h1 {
     font-size: 50px;
   }
-  .card-container{
-   grid-template-columns: repeat(1,1fr);
+
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
   }
-   
+
 }
 
 
@@ -217,13 +282,13 @@ nav li a {
     font-size: 50px;
   }
 
-  .card-container{
-    grid-template-columns: repeat(2,1fr);
-    
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+
   }
-  .card{
+
+  .card {
     width: 430px;
-    margin-right: 0;
   }
 
 }
