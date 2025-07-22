@@ -1,0 +1,87 @@
+/* Google-font-EB Garamond */
+
+.eb-garamond-normal {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Google-font-Poppins */
+.poppins-normal {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+/* header section */
+.head {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+
+}
+
+nav li a {
+  text-decoration: none;
+  color: #707070;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-li {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-btn {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #B68C5A;
+  border: none;
+  border-radius: 8px;
+  padding: 18px 29px;
+}
+
+
+
+
+
+
+/* mobile responsive */
+@media screen and (max-width: 576px) {
+  .nav-li {
+    display: none;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .nav-btn {
+    margin-top: 30px;
+    padding: 20px 100px;
+  }
+}
+
+
+
+/* Tablet responsive */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .nav-li {
+    gap: 20px;
+  }
+
+}
