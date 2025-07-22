@@ -227,7 +227,78 @@ nav li a {
   border-radius: 50%;
 }
 
+/* frequently-section */
+.frequently-container {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-top: 64px;
+}
 
+.frequently-title {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.frequently-title h2 {
+  font-family: EB Garamond;
+  font-size: 40px;
+  font-weight: 800;
+  color: #414040;
+}
+
+.frequently-title p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.frequently-container-left {
+  width: 504px;
+  height: 579px;
+}
+
+.frequently-container-right img{
+width: 570px;
+}
+
+.left-1 {
+  border-radius: 8px;
+  background: rgb(243, 243, 243);
+  padding: 20px;
+}
+
+.left-1 h3 {
+  font-family: EB Garamond;
+  font-size: 24px;
+  font-weight: 800;
+  color: #414040;
+}
+
+.left-1 p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.left-2 {
+  border-radius: 8px;
+  background: rgb(243, 243, 243);
+  padding: 12px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-2 h3 {
+  font-family: EB Garamond;
+  font-size: 24px;
+  font-weight: 800;
+  color: #414040;
+}
 
 
 
@@ -264,6 +335,16 @@ nav li a {
     grid-template-columns: repeat(1, 1fr);
   }
 
+   .frequently-container{
+    flex-direction: column;
+   }
+   .frequently-container-left{
+    width: 380px;
+   }
+   .frequently-container-right img{
+    width: 400px;
+    margin-top: 130px;
+   }
 }
 
 
@@ -290,5 +371,15 @@ nav li a {
   .card {
     width: 430px;
   }
+   
+  .frequently-container-left{
+    width: 700px;
+  }
 
+  .frequently-container-right img{
+    width: 400px;
+  }
+  .frequently-container{
+    gap: 20px;
+  }
 }
