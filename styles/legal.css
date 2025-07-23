@@ -116,6 +116,7 @@ nav li a {
   padding: 17px 39px;
 }
 
+/* The legal section */
 .legal-are-title {
   text-align: center;
   margin-top: 120px;
@@ -259,8 +260,8 @@ nav li a {
   height: 579px;
 }
 
-.frequently-container-right img{
-width: 570px;
+.frequently-container-right img {
+  width: 570px;
 }
 
 .left-1 {
@@ -301,6 +302,104 @@ width: 570px;
 }
 
 
+/* contact-us-section */
+
+.contact-us-title {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.contact-us-title h2 {
+  font-family: EB Garamond;
+  font-size: 40px;
+  font-weight: 800;
+  color: #414040;
+}
+
+.contact-us-title p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+}
+
+
+.contact-us-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 64px;
+}
+
+.contact-us-left-site {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-us-right-site {
+  /* width: 570px; */
+  display: grid;
+  justify-content: center;
+
+}
+
+.left-site {
+  background-color: #F3F3F3;
+  width: 285px;
+  border: 1px solid rgb(231, 231, 231);
+  text-align: center;
+  padding: 40px 5px;
+}
+
+.left-site h3 {
+  font-family: EB Garamond;
+  font-size: 24px;
+  font-weight: 800;
+  color: #414040;
+}
+
+.left-site p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.contact-us-right-site .input-1 {
+  padding: 23px 300px 23px 23px;
+  margin-bottom: 30px;
+  background-color: #F3F3F3;
+  border: none;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+  /* width: 570px; */
+}
+
+.contact-us-right-site .input-2 {
+  padding: 23px 300px 113px 23px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #F3F3F3;
+  border: none;
+  margin-bottom: 30px;
+  color: #707070;
+  border-radius: 8px;
+}
+
+.contact-us-btn {
+  border-radius: 8px;
+  background: rgb(182, 140, 90);
+  padding: 21px 207px;
+  color: white;
+  border: none;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+
 
 
 
@@ -335,22 +434,47 @@ width: 570px;
     grid-template-columns: repeat(1, 1fr);
   }
 
-   .frequently-container{
+  .frequently-container {
     flex-direction: column;
-   }
-   .frequently-container-left{
+  }
+
+  .frequently-container-left {
     width: 380px;
-   }
-   .frequently-container-right img{
+  }
+
+  .frequently-container-right img {
     width: 400px;
     margin-top: 130px;
-   }
+  }
+  .contact-us-container{
+    flex-direction: column;
+  }
+
+  .contact-us-left-site{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .left-site{
+    width: 100%;
+  }
+  .contact-us-right-site .input-1{
+    padding: 23px 90px;
+  }
+  .contact-us-right-site .input-2{
+    padding: 23px 100px;
+    padding: 23px 90px 100px;
+  }
+  .contact-us-btn{
+    padding: 23px ;
+  }
+
 }
 
 
 
 /* Tablet responsive */
 @media screen and (min-width: 576px) and (max-width: 992px) {
+
+
   .nav-li {
     gap: 20px;
   }
@@ -371,15 +495,37 @@ width: 570px;
   .card {
     width: 430px;
   }
-   
-  .frequently-container-left{
+
+  .frequently-container-left {
     width: 700px;
   }
 
-  .frequently-container-right img{
+  .frequently-container-right img {
     width: 400px;
   }
-  .frequently-container{
+
+  .frequently-container {
     gap: 20px;
+  }
+
+  .contact-us-container{
+    gap: 20px;
+  }
+
+  .contact-us-right-site .input-1 {
+    padding: 23px 95px;
+
+  }
+
+  .contact-us-right-site .input-2 {
+    /* padding: 23px 150px 113px 23px; */
+    width: 70px;
+
+  }
+
+  .contact-us-btn {
+    padding: 21px 50px;
+    width: 390px;
+
   }
 }
